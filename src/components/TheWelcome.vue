@@ -5,6 +5,7 @@ import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
+import data from '@/data.json'
 </script>
 
 <template>
@@ -24,6 +25,8 @@ import SupportIcon from './icons/IconSupport.vue'
       <ToolingIcon />
     </template>
     <template #heading>Tooling</template>
+
+    {{ data }}
 
     This project is served and bundled with
     <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
